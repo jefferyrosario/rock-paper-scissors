@@ -1,0 +1,46 @@
+h2 {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.roundResult {
+    text-align: center;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.score {
+    display: flex;
+    
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.humanScoreContainer{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    flex-grow: 1;
+}
+.computerScoreContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-grow: 1;
+}
+.finalResult {
+    
+    text-align: center;
+}
